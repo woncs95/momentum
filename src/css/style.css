@@ -9,15 +9,12 @@ background-size: cover;
 
 }
 
-#clock, #login-form ,#greeting, #todo-form, #todo-list, #quote-container{
+#clock, #login-form ,#greeting, #todo-form, #todo-list, #quote-container, #weather{
   color : white;
   text-align: center;
   align-items: center;
 }
 
-#clock {
-    resize: 200%;
-}
 
 #container{
     margin-top: 20%;
