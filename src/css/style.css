@@ -3,9 +3,7 @@
     transition: ease-in-out;
 }
 
-img {
-    height: 100%;
-    background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
+background: no-repeat center center fixed; 
+background-size: cover;
 }
