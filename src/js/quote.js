@@ -7,8 +7,8 @@ function generateQuote(){
          return data.json();
     })
     .then(function(data){    
-    document.getElementById("quote").innerHTML = data.content; 
-    document.querySelector("#author").innerHTML = "- " + data.author;
+    document.getElementById("quote").innerText = data.content; 
+    document.querySelector("#author").innerText = "- " + data.author;
    })
  .catch(function(err) {
     console.log(err); 
